@@ -1,5 +1,6 @@
 package com.codedifferently.labs.partA.ex02;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 public class NameMaker {
@@ -17,6 +18,16 @@ public class NameMaker {
         String lastName = "";
         /* Put your code in between these comments : Top */
 
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter first name: ");
+        firstName = scanner.nextLine();
+        System.out.print("Enter middle name: ");
+        middleName = scanner.nextLine();
+        System.out.print("Enter last name: ");
+        lastName = scanner.nextLine();
+
+        scanner.close();
 
         /* Put your code in between these comments : Bottom */
         String fullName  = nameMaker(firstName, middleName, lastName);

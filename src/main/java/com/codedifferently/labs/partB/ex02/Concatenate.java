@@ -3,6 +3,11 @@ package com.codedifferently.labs.partB.ex02;
 public class Concatenate {
     public static String concatenateStrings() {
             String response = "";
+        String myString = "Abe ";
+
+        myString = myString + "Lincoln";
+        response += myString;
+
         /* Your code goes here*/
 
         return response;
