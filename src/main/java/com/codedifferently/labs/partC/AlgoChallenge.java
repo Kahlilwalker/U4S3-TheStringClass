@@ -12,6 +12,7 @@ public class AlgoChallenge {
     missingLetter("kitten", 4) --> "kittn"
      */
 
+
     public static String missingLetter(String letter, int n) {
 
         return null;
